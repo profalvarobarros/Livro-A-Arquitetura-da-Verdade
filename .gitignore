@@ -1,0 +1,25 @@
+# Ambientes virtuais
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Artefatos intermediários gerados pelos notebooks entre capítulos
+# (X_train, X_test, metrics_*.json — recriados a cada execução via _shared/utils.py)
+data/cap*_*.pkl
+data/metrics_cap*.json
+
+# Sistema operacional / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs e execução local da API
+*.log
+.env

@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "Se este código foi útil para seu trabalho, considere citar o livro que o acompanha."
+type: software
+title: "A Arquitetura da Verdade — A Saga da Classificação (código-fonte)"
+authors:
+  - family-names: "Riz de Barros"
+    given-names: "Alvaro"
+    email: alvaroriz@gmail.com
+version: 1.0.0
+date-released: 2026-07-20
+license: MIT
+repository-code: "https://github.com/profalvarobarros/Livro-A-Arquitetura-da-Verdade"
+abstract: >
+  Notebooks, módulo de projeto e artefatos de deployment que acompanham o
+  livro "A Arquitetura da Verdade — A Saga da Classificação", segundo volume
+  da trilogia "A Carta dos Modelos". O projeto didático OncoClassify 2.0
+  aplica classificação binária ao Wisconsin Breast Cancer Dataset, cobrindo
+  o ciclo completo de um modelo de decisão: curadoria de dados, seleção de
+  algoritmos, avaliação além da acurácia, interpretabilidade (SHAP, LIME),
+  fairness e deployment.
+keywords:
+  - machine learning
+  - classificação
+  - scikit-learn
+  - interpretabilidade
+  - fairness
+  - ciência de dados
